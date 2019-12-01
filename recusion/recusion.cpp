@@ -8,13 +8,13 @@ int main()
 	for (int i = 1; i <= user_number; i++) {
 		std::string text = "";
 		if (i % 3 == 0) {
-			text = text + "Fizz";
+			text += "Fizz";
 		}
 		if (i % 5 == 0) {
-			text = text + "Buzz";
+			text += "Buzz";
 		}
 		if (i % 2 == 0) {
-			text = text + "Dizz";
+			text += "Dizz";
 		}
 		if (text == "") {
 			std::cout << i << "\n";
